@@ -1,0 +1,18 @@
+{
+  "name": "tp5er/queue",
+  "authors": [
+    {
+      "name": "tp5er",
+      "email": "tp5er@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "tp5er\\": "src/"
+    }
+  },
+  "require": {
+    "ext-redis": "*",
+    "php-amqplib/php-amqplib": "^3.0"
+  }
+}
